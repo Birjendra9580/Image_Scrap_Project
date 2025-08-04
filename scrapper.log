@@ -73,3 +73,19 @@ INFO:werkzeug:172.18.0.2 - - [01/Dec/2023 12:51:27] "[36mGET /static/css/main.c
 INFO:werkzeug:172.18.0.2 - - [01/Dec/2023 12:51:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
 INFO:root:MongoDB URI options are key=value pairs.
 INFO:werkzeug:172.18.0.2 - - [01/Dec/2023 12:51:58] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.31.2.137:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.31.2.137:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:160.202.37.169 - - [04/Aug/2025 14:17:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:160.202.37.169 - - [04/Aug/2025 14:17:52] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:160.202.37.169 - - [04/Aug/2025 14:17:52] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:160.202.37.169 - - [04/Aug/2025 14:17:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:No connection adapters were found for 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwBAMAAAClLOS0AAAAD1BMVEUAAAALV9AMWM8LV9AMWM/cqVvwAAAABXRSTlMAv4D/QIO3/x8AAADqSURBVHgBxJFHEgIxDARnw51g7sQHYMSd+P83UZaqN99pkgu5vRpLf2arZSo7aJHablrmHMrpmGyze06V+mxOpoLyMTiMldaGlWUlC/QZK3cF5T9XtpvJYY1ZUQ5Sm0ZK6nfVoTwVd2Ku6H2RIs5VEmt/yk4Nu0Q70dizZhcn5ciyVl/4RCHi35Q4i5VcKT8UWLlCIUus5MpXRBSZGGXi4RQOrtC8CoRlLgTkSoZzWWsQ/SAURkXEJ4oLKIXNyVzJgpcZFAVBNM8lCxgpypB6qMDIyQlF8N6Uvn4jmPgxAb20GOLK4CoMVAUA2/FUWazwZNUAAAAASUVORK5CYII='
+INFO:werkzeug:160.202.37.169 - - [04/Aug/2025 14:19:12] "POST /review HTTP/1.1" 200 -
