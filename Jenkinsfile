@@ -14,10 +14,10 @@ pipeline{
         }
         stage("Docker-hub"){
             steps{
-                withCredentials([usernamePassword(credentialsId: 'vishal',passwordVariable: 'password',usernameVariable: 'user')]){
-                    sh 'docker login -u $user -p password'
-                    sh 'docker tag my-app:3.0 $user/my-app:3.0'
-                    sh 'docker push $user/my-app:3.0'
+                withCredentials([usernamePassword(credentialsId: 'vishal',passwordVariable: 'PASSWORD',usernameVariable: 'USER')]){
+                    sh 'docker login -u $USER -p $PASSWORD'
+                    sh 'docker tag my-app:3.0 $USER/my-app:3.0'
+                    sh 'docker push $USER/my-app:3.0'
                     sh 'docker logout'
                 } 
             }
