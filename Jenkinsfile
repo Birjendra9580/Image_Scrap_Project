@@ -9,7 +9,7 @@ pipeline{
         stage("Build Image"){
             steps{
                 sh 'docker build -t my-app:3.0 .'
-                sh 'docker run -itd -p 0000:8000 my-app:3.0'
+                sh 'docker run -itd -p 8000:8000 my-app:3.0'
             }
         }
         stage("Docker-hub"){
