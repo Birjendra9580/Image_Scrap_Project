@@ -1,0 +1,6 @@
+services :
+  image :
+    build : .
+    container_name : my-contanir
+    ports :
+      - "8000:8000"
